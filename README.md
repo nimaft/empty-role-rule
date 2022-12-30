@@ -32,5 +32,3 @@ Here is the [configuration item schema](https://github.com/awslabs/aws-config-re
 2. For each role in roles list, it lists the names of the inline policies that are embedded in the specified IAM role using iam [`list_role_policies`](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/iam.html#IAM.Client.list_role_policies) method
 3. It lists all managed policies that are attached to the specified IAM role using iam [`list_attached_role_policies`](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/iam.html#IAM.Client.list_attached_role_policies) method. 
 4. If both lists are empty it marks the resource non-compliant and moves to the next resource on the list.
-
-
