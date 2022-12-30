@@ -1,0 +1,14 @@
+{
+  "Version": "1.0",
+  "Parameters": {
+    "RuleName": "IAM_EMPTY_ROLE",
+    "Description": "Finds roles with no policies attached to them.",
+    "SourceRuntime": "python3.9",
+    "CodeKey": "IAM_EMPTY_ROLE.zip",
+    "InputParameters": "{}",
+    "OptionalParameters": "{}",
+    "SourceEvents": "AWS::IAM::Role",
+    "SourcePeriodic": "TwentyFour_Hours"
+  },
+  "Tags": "[]"
+}
